@@ -3,15 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Recetas Personalizadas</title>
    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Este es un ejemplo básico de HTML con enlaces a archivos CSS y JS.</p>
+    <h1>Recetas Personalizadas</h1>
+    <p>Esta pagina te ayudara a seguir una dieta sana y variada pero con cosas que te gustan</p>
+    
+    <div>
+    <h2>Usuario</h2>
+<h3>Nombre:<input type="text"></h3>
+<h3>Correo:<input type="text"></h3>
 
-    <!-- Enlace al archivo JS -->
+<h3>Vegetarian@:</h3>
+<select>
+    <option value="  ">  </option>
+    <option value="Si">Si</option>
+    <option value="No">No</option>
+</select>
+
+<h3>Genero Biologico:</h3>
+<select>
+    <option value="  ">  </option>
+    <option value="Si">Si</option>
+    <option value="No">No</option>
+</select>
+
+<button type="submit">Enviar</button>
+
+</div>
+
+<div>
+    <h2>Alergias</h2>
+    <label>Ninguna<input id="Ninguna" type="checkbox"></label>
+</div>
+
+<div>
+<h2>Preferencias<label>(marca las que no quieras en tu dieta)</label></h2>
+<label>Ninguna<input id="Ninguna" type="checkbox"></label>
+</div>
+
     <script src="script.js"></script>
 </body>
 </html>
