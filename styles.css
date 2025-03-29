@@ -1,0 +1,253 @@
+/* estilo para el body*/
+
+body {
+background-color: #F9E79F;
+}
+
+/* Estilos para las clases de la sección de inicio */
+.DivInicio {
+    
+background-color: #8FBC8F;
+border-radius: 70px;
+width: 80%;
+margin: 0 auto;
+margin-top: 0%;
+}
+.TituloPagina {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 100px;    
+    padding-top: 10px;
+    margin-bottom: 0% ; 
+}
+.DescripcionPagina {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    font-size: 37px;
+    padding-bottom: 30px;
+
+}
+
+/* Estilos para las clases de la interfaz de usuario */
+.DivInterfazDeUsuario {
+    background-color: #8FBC8F;
+}
+.Usuario {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 50px; 
+    padding-top: 0%; 
+    margin-bottom: 0% ;
+}
+.Nombre {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.Correo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.Vegetariano{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.OpcionVegetariano{
+    width: 7%; 
+    display: block;
+    margin: 0 auto; 
+}
+.Genero {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.OpcionGenero {
+    width: 7%; 
+    display: block;
+    margin: 0 auto;
+}
+.BotonUsario {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Estilos para las clases de las alergias */
+.DivAlergias {
+    background-color: #8FBC8F;
+}
+.TituloAlergias {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.AlergiasNinguna {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.OpcionesAlergias {
+
+}
+
+.BotonAlergias {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Estilos para las clases de preferencias */
+.DivPreferencias {
+    background-color: #8FBC8F;
+}
+.TituloPreferencias {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.ParentesisPreferencias {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.PreferenciasNinguna {
+
+}
+.OpcionesPreferencias {
+
+}
+.BotonPreferancias {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Div contenedor de Interfaz de usuario, Alergias y Preferencias */
+
+.DivContenedor{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.DivInterfazDeUsuario, .DivAlergias,.DivPreferencias {
+    width: 33%; 
+    margin: 15px;
+    margin-top: 0%;
+    padding: 0%;
+    border-radius: 105px; 
+}
+
+/* Estilos para las clases de recetas */
+.DivTusRecetas {
+    background-color: #8FBC8F;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    border-radius: 70px;
+    font-size: 35px;
+
+}
+
+
+.DivContenedorRecetas123{
+    display: flex;
+}
+
+.DivContenedorRecetas456{
+    display: flex;
+}
+
+.DivContenedorRecetas789{
+    display: flex; 
+}
+
+.DivRecetas10 {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.DivRecetas1, .DivRecetas2, .DivRecetas3{
+    width: 33%;
+    margin: 15px;
+    border-radius: 105px; 
+    background-color: #8FBC8F;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.DivRecetas4, .DivRecetas5, .DivRecetas6{
+    width: 33%;
+    margin: 15px;
+    margin-top: 0%;
+    border-radius: 105px; 
+    background-color: #8FBC8F;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.DivRecetas7, .DivRecetas8, .DivRecetas9{
+    width: 33%;
+    margin: 15px;
+    margin-top: 0%;
+    border-radius: 105px; 
+    background-color: #8FBC8F;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.DivRecetas1, .DivRecetas2, .DivRecetas3,
+.DivRecetas4, .DivRecetas5, .DivRecetas6,
+.DivRecetas7, .DivRecetas8, .DivRecetas9,
+.DivRecetas10 {
+    width: 33%;
+    margin: 15px;
+    border-radius: 105px; 
+    background-color: #8FBC8F;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.TituloRecetas, .DescripcionRecetas {
+    width: 100%;  
+    text-align: center; 
+}
+
+.DivRecetas10 {
+    width: 33%; 
+    margin: 0 auto; 
+    margin-top: 0%;
+    border-radius: 105px;
+    background-color: #8FBC8F;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
+}
+
+.TituloRecetas {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.DescripcionRecetas {
+    display: block; 
+}
