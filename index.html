@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Personalizadas</title>
+   <!--EnlaceCSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!--body-->
+
+<body>
+
+<!--Inicio-->
+
+    <div class="DivInicio">
+    <h1 class="TituloPagina">Recetas Personalizadas</h1>
+    <p class="DescripcionPagina">Esta pagina te ayudara a seguir una dieta sana y variada pero con cosas que te gustan</p>
+    </div>
+
+    
+
+<!--Alergias-->
+
+<div class="DivContenedor">
+
+<div class="DivAlergias">
+    <h2 class="TituloAlergias">Alergias</h2>
+    <label class="AlergiasNinguna">Ninguna<input id="Ninguna" type="checkbox"></label>
+    <label class="OpcionesAlergias">lacteos<input id="lacteos" type="checkbox"></label>
+<label class="OpcionesAlergias">Huevo<input id="Huevo" type="checkbox"></label>
+<label class="OpcionesAlergias">Frutos secos<input id="FrutosSecos" type="checkbox"></label>
+<label class="OpcionesAlergias">Pescado<input id="Pescado" type="checkbox"></label>
+<label class="OpcionesAlergias">Mariscos<input id="Mariscos" type="checkbox"></label>
+<label class="OpcionesAlergias">Trigo<input id="Trigo" type="checkbox"></label>
+<label class="OpcionesAlergias">Soja<input id="Soja" type="checkbox"></label>
+<label class="OpcionesAlergias">mani<input id="mani" type="checkbox"></label>
+<label class="OpcionesAlergias">piña<input id="piña" type="checkbox"></label>
+<label class="OpcionesAlergias">Mostaza<input id="Mostaza" type="checkbox"></label>
+<label class="OpcionesAlergias">Apio<input id="Apio" type="checkbox"></label>
+<label class="OpcionesAlergias">Gelatina<input id="Gelatina" type="checkbox"></label>
+<label class="OpcionesAlergias">Ciruelas<input id="Ciruelas" type="checkbox"></label>
+<label class="OpcionesAlergias">Pera<input id="Pera" type="checkbox"></label>
+<label class="OpcionesAlergias">Tomate<input id="Tomate" type="checkbox"></label>
+<label class="OpcionesAlergias">Zanahoria<input id="Zanahoria" type="checkbox"></label>
+<label class="OpcionesAlergias">kiwi<input id="kiwi" type="checkbox"></label>
+<label class="OpcionesAlergias">melon<input id="melon" type="checkbox"></label>
+</div>
+
+<!--InterfazDeUsuario-->
+
+<div class="DivInterfazDeUsuario">
+    <h2 class="Usuario">Usuario</h2>
+<h3 class="Nombre">Nombre:<input class="InputCorreo" type="text"></h3>
+<h3 class="Correo">Correo:<input class="InputCorreo" type="text"></h3>
+
+<h3 class="Vegetariano">Vegetarian@</h3>
+<select class="OpcionVegetariano">
+    <option value="  ">  </option>
+    <option value="Si">Si</option>
+    <option value="No">No</option>
+</select>
+
+<h3 class="Genero">Genero Biologico</h3>
+<select class="OpcionGenero">
+    <option value="  ">  </option>
+    <option value="Si">Si</option>
+    <option value="No">No</option>
+</select>
+
+<button class="BotonUsario" type="submit">Enviar todo</button>
+
+</div>
+
+<!--Preferencias-->
+
+<div class="DivPreferencias">
+<h2 class="TituloPreferencias">Preferencias</h2>
+<label class="PreferenciasNinguna">Ninguna<input id="Ninguna" type="checkbox"></label>
+<label class="OpcionesPreferencias">Arroz<input id="Arroz" type="checkbox"></label>
+<label class="OpcionesPreferencias">Maíz<input id="Maiz" type="checkbox"></label>
+<label class="OpcionesPreferencias">Papa<input id="Papa" type="checkbox"></label>
+<label class="OpcionesPreferencias">Yuca<input id="Yuca" type="checkbox"></label>
+<label class="OpcionesPreferencias">Frijoles<input id="Frijoles" type="checkbox"></label>
+<label class="OpcionesPreferencias">res<input id="CarneRes" type="checkbox"></label>
+<label class="OpcionesPreferencias">Pollo<input id="Pollo" type="checkbox"></label>
+<label class="OpcionesPreferencias">Aguacate<input id="Aguacate" type="checkbox"></label>
+<label class="OpcionesPreferencias">Plátano<input id="Platano" type="checkbox"></label>
+<label class="OpcionesPreferencias">Queso<input id="Queso" type="checkbox"></label>
+<label class="OpcionesPreferencias">Cebolla<input id="Cebolla" type="checkbox"></label>
+<label class="OpcionesPreferencias">Tomate<input id="Tomate" type="checkbox"></label>
+<label class="OpcionesPreferencias">Chiles<input id="Chiles" type="checkbox"></label>
+<label class="OpcionesPreferencias">Cilantro<input id="Cilantro" type="checkbox"></label>
+<label class="OpcionesPreferencias">Limón<input id="Limon" type="checkbox"></label>
+<label class="OpcionesPreferencias">cerdo<input id="CarneCerdo" type="checkbox"></label>
+<label class="OpcionesPreferencias">Huevo<input id="Huevo" type="checkbox"></label>
+<label class="OpcionesPreferencias">Leche<input id="Leche" type="checkbox"></label>
+<label class="OpcionesPreferencias">Guisantes<input id="Guisantes" type="checkbox"></label>
+<label class="OpcionesPreferencias">Pepino<input id="Pepino" type="checkbox"></label>
+<p class="ParentesisPreferencias">(marca las que no quieras en tu dieta)</p>
+</div>
+
+</div>
+
+<!--TusRecetas-->
+
+<div class="DivTusRecetas">
+<h1 class="TusRecetas">Tus Recetas</h1>
+</div>
+
+
+
+<div class="DivContenedorRecetas123">
+
+<div class="DivRecetas1">
+    <h2 class="TituloRecetas" id="Receta1">Receta1</h2>
+    <p class="DescripcionRecetas" id="Descripcion1">Descripcion</p>
+</div>
+
+<div class="DivRecetas2">
+    <h2 class="TituloRecetas" id="Receta2">Receta2</h2>
+    <p class="DescripcionRecetas" id="Descripcion2">Descripcion</p>
+</div>
+
+<div class="DivRecetas3">
+    <h2 class="TituloRecetas" id="Receta3">Receta3</h2>
+    <p class="DescripcionRecetas" id="Descripcion3">Descripcion</p>
+</div>
+
+</div>
+
+
+
+<div class="DivContenedorRecetas456">
+
+<div class="DivRecetas4">
+    <h2 class="TituloRecetas" id="Receta4">Receta4</h2>
+    <p class="DescripcionRecetas" id="Descripcion4">Descripcion</p>
+</div>
+
+<div class="DivRecetas5">
+    <h2 class="TituloRecetas" id="Receta5">Receta5</h2>
+    <p class="DescripcionRecetas" id="Descripcion5">Descripcion</p>
+</div>
+
+<div class="DivRecetas6">
+    <h2 class="TituloRecetas" id="Receta6">Receta6</h2>
+    <p class="DescripcionRecetas" id="Descripcion6">Descripcion</p>
+</div>
+
+</div>
+
+
+
+<div class="DivContenedorRecetas789">
+
+<div class="DivRecetas7">
+    <h2 class="TituloRecetas" id="Receta7">Receta7</h2>
+    <p class="DescripcionRecetas" id="Descripcion7">Descripcion</p>
+</div>
+
+<div class="DivRecetas8">
+    <h2 class="TituloRecetas" id="Receta8">Receta8</h2>
+    <p class="DescripcionRecetas" id="Descripcion8">Descripcion</p>
+</div>
+
+<div class="DivRecetas9">
+    <h2 class="TituloRecetas" id="Receta9">Receta9</h2>
+    <p class="DescripcionRecetas" id="Descripcion9">Descripcion</p>
+</div>
+
+</div>
+
+
+
+<div class="DivRecetas10">
+    <h2 class="TituloRecetas" id="Receta10">Receta10</h2>
+    <p class="DescripcionRecetas" id="Descripcion10">Descripcion</p>
+</div>
+
+
+
+
+<!--EnlaceJS-->
+
+   <script src="script.js"></script>
+
+</body>
+
+
+<!--fin-->
+
+
+</html>

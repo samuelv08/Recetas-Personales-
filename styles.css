@@ -1,0 +1,242 @@
+/* estilo para el body*/
+
+body {
+    background-color: #F9E79F;
+    }
+    
+    /* Estilos para las clases de la sección de inicio */
+    .DivInicio {
+        
+    background-color: #8FBC8F;
+    border-radius: 70px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0%;
+    padding-top: 0%;
+    }
+    .TituloPagina {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-size: 500%;    
+        padding-top: 1%;
+        padding-bottom: 0%;
+        margin-bottom: 0% ; 
+    }
+    .DescripcionPagina {
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+        font-size: 160%;
+        padding-top: 0%;
+        padding-bottom: 2.5%;
+    
+    }
+    
+    /* Estilos para las clases de la interfaz de usuario */
+    .DivInterfazDeUsuario {
+        background-color: #8FBC8F;
+    }
+    .Usuario {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        font-size: 300%; 
+        padding-top: 0%; 
+        margin-bottom: 0% ;
+        margin: 0%;
+        margin-top: 5%;
+    }
+    .Nombre {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        font-size: 150%;
+    margin: 2%;
+    }
+    .Correo {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        font-size: 150%;  
+        margin-bottom: 0%;
+    }
+    .Vegetariano{
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        margin: 1%;
+        margin-top: 4%;
+    }
+    .OpcionVegetariano{
+        width: 7%; 
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: 4%;
+
+    }
+    .Genero {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        margin: 1%;
+    }
+    .OpcionGenero {
+        width: 7%; 
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .BotonUsario {
+      display: block;
+      margin: 0 auto;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 17.5%;
+    }
+    
+    /* Estilos para las clases de las alergias */
+    .DivAlergias {
+        background-color: #8FBC8F;
+    }
+    .TituloAlergias {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        font-size: 300%;
+        margin-bottom: 4%;
+        margin: 0%;
+        margin-top: 5%;
+    }
+    .AlergiasNinguna {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        font-size: 190%;
+    }
+    .OpcionesAlergias {
+    font-size: 150%;
+    
+    }
+    
+    /* Estilos para las clases de preferencias */
+    .DivPreferencias {
+        background-color: #8FBC8F;
+    }
+    .TituloPreferencias {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        font-size: 300%;
+        margin: 0%;
+        margin-top: 5%;
+    }
+    .ParentesisPreferencias {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        font-size: 140%;
+        margin: 0%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .PreferenciasNinguna {
+        display: flex;
+        justify-content: center; 
+        font-size: 190%;
+        margin-top: 0%;
+    }
+    .OpcionesPreferencias {
+    font-size: 150%;
+    }
+    
+    /* Div contenedor de Interfaz de usuario, Alergias y Preferencias */
+    
+    .DivContenedor{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .DivInterfazDeUsuario, .DivAlergias,.DivPreferencias {
+        width: 33%; 
+        margin: 1%;
+        margin-top: 0%;
+        padding: 0%;
+        border-radius: 100px; 
+    }
+    
+    /* Estilos para las clases de recetas */
+    .DivTusRecetas {
+        background-color: #8FBC8F;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 1%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+        border-radius: 70px;
+        font-size: 190%;
+    
+    }
+    
+    
+    .DivContenedorRecetas123{
+        display: flex;
+    }
+    
+    .DivContenedorRecetas456{
+        display: flex;
+    }
+    
+    .DivContenedorRecetas789{
+        display: flex; 
+    }
+    
+    .DivRecetas10 {
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+    
+    .DivRecetas1, .DivRecetas2, .DivRecetas3,
+    .DivRecetas4, .DivRecetas5, .DivRecetas6,
+    .DivRecetas7, .DivRecetas8, .DivRecetas9,
+    .DivRecetas10 {
+        width: 33%;
+        margin: 1%;
+        border-radius: 105px; 
+        background-color: #8FBC8F;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 1%;
+    }
+    
+    .TituloRecetas, .DescripcionRecetas {
+        width: 100%;  
+        text-align: center; 
+    }
+    
+    .DivRecetas10 {
+        width: 33%; 
+        margin: 0 auto; 
+        margin-top: 1%;
+        border-radius: 105px;
+        background-color: #8FBC8F;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        padding: 1.3%;
+        text-align: center; 
+    }
+    
+    .TituloRecetas {
+        display: block; 
+        margin: 0%; 
+    }
+    
+    .DescripcionRecetas {
+        display: block; 
+    }
